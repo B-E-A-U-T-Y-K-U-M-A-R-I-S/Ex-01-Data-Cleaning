@@ -21,6 +21,7 @@ Save the Clean data to the file
 # CODE
 
 # dataset
+```
 
 import pandas as pd
 import numpy as np
@@ -40,9 +41,10 @@ data['watchers']=data['watchers'].fillna(data['watchers'].mean())
 data.head()
 data.info()
 data.isnull().sum()
-
+```
 
 # Loan
+```
 
 import pandas as pd
 import numpy as np
@@ -63,7 +65,7 @@ df.head()
 df.info()
 df.isnull().sum()
 
-
+```
 
 # OUPUT
 
